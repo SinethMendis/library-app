@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="images/books.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="sidebar">
+            <div class="sidebar-header">Add your book</div>
+            <form class="form" action="">
+
+                <div class="labels">
+                    <label for="title">Book title<input type="text" name="title" id="title"></label>
+
+                    <label for="isbn">ISBN<input type="text" name="isbn" id="isbn"></label>
+
+                    <label for="author">Author<input type="text" name="author" id="author"></label>
+
+                    <label for="pages">Pages<input type="number" name="pages" id="pages"></label>
+
+
+                    <label for="publishedyear">Published Year<input type="number" name="publishedyear"
+                            id="publishedyear"></label>
+
+
+                    <label for="readstatus">Read Status<select class="select" name="readstatus" id="readstatus">
+                            <option value="Read">Read</option>
+                            <option value="Currently reading">Currently reading</option>
+                            <option value="Not read">Not read</option>
+                        </select></label>
+
+                </div>
+                <button class="add-btn" type="submit">ADD</button>
+            </form>
+        </div>
+
+        <div class="header">
+            <div class="header-title">Library app</div>
+            <button type="button" class="new-book">NEW BOOK</button>
+        </div>
+
+        <div class="main">
+            <div class="your-projects">
+                <div class="your-projects-header">Your book collection</div>
+                <div class="your-projects-body">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+
+</body>
+
+</html>
